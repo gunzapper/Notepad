@@ -18,7 +18,7 @@ After configure `~\.tmux.conf`. This is [Vince Bufalo configuration](https://git
 
 
     # Set Tmux's default keystroke to C-a, a binding which comes from GNU Screen
-    # and is quite commong among Tmux users.
+    # and is quite common among Tmux users.
     set-option -g prefix C-a
     unbind C-b
 
@@ -39,7 +39,7 @@ After configure `~\.tmux.conf`. This is [Vince Bufalo configuration](https://git
     bind | split-window -h # split horizontally with C-a |  
     bind - split-window -v # split vertically with C-a -
     
-Subcommands
+Sub commands
 -----------
 
 - List all sessions
@@ -56,11 +56,11 @@ Subcommands
 
 - Attach a session 
 
-     tmux attach-sesssion -t "session-name"
+     tmux attach-session -t "session-name"
  
 - Detach a session and attach again 
  
-     tmux attach-sesssion -d -t "session-name"
+     tmux attach-session -d -t "session-name"
      
 Key Sequences
 --------------
@@ -117,7 +117,7 @@ Key Sequences
 
 - Scrolling on
 
-    C-a PagUp
+    C-a Pup
 
 - Scrolling off
 
